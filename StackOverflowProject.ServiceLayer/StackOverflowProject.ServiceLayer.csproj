@@ -48,6 +48,14 @@
       <Project>{ba381571-5ee0-4556-93ac-5f87b04f8374}</Project>
       <Name>StackOverflowProject.DomainModels</Name>
     </ProjectReference>
+    <ProjectReference Include="..\StackOverflowProject.Repositories\StackOverflowProject.Repositories.csproj">
+      <Project>{0da14a58-7f41-4d0d-803a-ff9fdde4141e}</Project>
+      <Name>StackOverflowProject.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StackOverflowProject.ViewModels\StackOverflowProject.ViewModels.csproj">
+      <Project>{1a1e5f8c-c22b-407e-9ad1-8ad5b8174485}</Project>
+      <Name>StackOverflowProject.ViewModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
