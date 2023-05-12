@@ -145,6 +145,10 @@
       <Project>{ba381571-5ee0-4556-93ac-5f87b04f8374}</Project>
       <Name>StackOverflowProject.DomainModels</Name>
     </ProjectReference>
+    <ProjectReference Include="..\StackOverflowProject.ServiceLayer\StackOverflowProject.ServiceLayer.csproj">
+      <Project>{f744926f-b996-47d5-8f34-35b6d17e1688}</Project>
+      <Name>StackOverflowProject.ServiceLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StackOverflowProject.ViewModels\StackOverflowProject.ViewModels.csproj">
       <Project>{1a1e5f8c-c22b-407e-9ad1-8ad5b8174485}</Project>
       <Name>StackOverflowProject.ViewModels</Name>
