@@ -1,0 +1,28 @@
+﻿.navbar
+{
+    background-color:black;
+    
+}
+#active
+{
+    color: yellow !important;
+}
+.navbar a:link, .navbar a:visited
+{
+    color: white !important;
+}
+.navbar a:hover
+{
+    color: gray !important;
+}
+.dropdown-menu a:hover
+{
+    color: black !important;
+}
+.hidden
+{
+    display: none;
+}
+td a{
+    text-decoration: none;
+}
